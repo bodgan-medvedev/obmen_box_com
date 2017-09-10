@@ -1,0 +1,104 @@
+{
+  "domain": "*",
+  "connectionLimit": "2000",
+  "db_host": "185.86.148.36",
+  "db_name": "licenseobmenbox",
+  "db_user": "root",
+  "db_password": "9216009Bbb",
+  "defaultLang": "ru",
+  "version": "0.0.1 [Development]",
+  "product": {
+    "free": {
+      "day": 14
+    },
+    "rent": 50,
+    "buy": 499,
+    "version": "v3"
+  },
+  "project_name": "Obmen-box",
+  "database": {
+    "mongodb_url": "mongodb://user:pass@127.0.0.1:27017/db_name"
+  },
+  "server": {
+    "url": {
+      "path": "/"
+    },
+    "http": {
+      "port": 8000
+    },
+    "https": {
+      "port": 8001
+    },
+    "ws": {
+      "port": 8002
+    }
+  },
+  "redis.status": false,
+  "redis.host": "127.0.0.1",
+  "redis.post": "0000",
+  "application": {
+    "mail": {
+      "service": "gmail.com",
+      "username": "example@gmail.com",
+      "password": "myPassword123"
+    },
+    "process": {
+      "application_version": "0.0.1",
+      "nodeVersion": "v8.1.2",
+      "pid": 30392,
+      "uid": 501,
+      "gid": 20,
+      "arch": "x64",
+      "platform": "darwin",
+      "network": [
+        {
+          "address": "fe80::c28:5133:1a75:273f",
+          "netmask": "ffff:ffff:ffff:ffff::",
+          "family": "IPv6",
+          "mac": "20:02:64:40:61:e0",
+          "scopeid": 4,
+          "internal": false
+        },
+        {
+          "address": "192.168.0.2",
+          "netmask": "255.255.255.0",
+          "family": "IPv4",
+          "mac": "20:02:64:40:61:e0",
+          "internal": false
+        },
+        {
+          "address": "2002:6440:61e0:0:45f:eb98:8556:60e4",
+          "netmask": "ffff:ffff:ffff:ffff::",
+          "family": "IPv6",
+          "mac": "20:02:64:40:61:e0",
+          "scopeid": 0,
+          "internal": false
+        },
+        {
+          "address": "2002:6440:61e0:0:21e9:271c:81cd:5a6a",
+          "netmask": "ffff:ffff:ffff:ffff::",
+          "family": "IPv6",
+          "mac": "20:02:64:40:61:e0",
+          "scopeid": 0,
+          "internal": false
+        },
+        {
+          "address": "2002:6440:61e0:0:d88b:d71e:9714:7dd6",
+          "netmask": "ffff:ffff:ffff:ffff::",
+          "family": "IPv6",
+          "mac": "20:02:64:40:61:e0",
+          "scopeid": 0,
+          "internal": false
+        }
+      ],
+      "cpu": {
+        "count": 8,
+        "core": "Intel(R) Core(TM) i7-4870HQ CPU @ 2.50GHz"
+      }
+    }
+  },
+  "aws-s3.region": "us-west-2",
+  "aws-s3.bucket": "abab-p2p",
+  "aws-s3.key": "",
+  "aws-s3.secret": ""
+}

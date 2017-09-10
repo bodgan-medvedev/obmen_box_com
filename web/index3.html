@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+		<meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
+        <title>3D слайдер на CSS3 и JQuery / 3 примера + автопрокрутка</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+		<link rel="icon" href="http://vladmaxi.net/favicon.ico" type="image/x-icon">
+		<link rel="shortcut icon" href="http://vladmaxi.net/favicon.ico" type="image/x-icon">
+        <link rel="shortcut icon" href="../favicon.ico"> 
+        <link rel="stylesheet" type="text/css" href="css/demo.css" />
+        <link rel="stylesheet" type="text/css" href="css/style.css" />
+		<script type="text/javascript" src="js/modernizr.custom.53451.js"></script>
+    </head>
+    <body>
+        <div class="container">
+			<!-- vladmaxi top bar -->
+				<div class="vladmaxi-top">
+					<a href="http://vladmaxi.net" target="_blank">Главная Vladmaxi.net</a>
+					<span class="right">
+						<a href="http://vladmaxi.net/web-developer/jquery/3d-slajder-na-css3-i-jquery-3-primera-avtoprokrutka.html">
+							<strong>Вернуться назад к статье</strong>
+						</a>
+					</span>
+				<div class="clr"></div>
+				</div>
+			<!--/ vladmaxi top bar -->
+			<header>
+				<h1>3D слайдер на CSS3 и JQuery | <span>3 примера + автопрокрутка</span></h1>
+				<nav class="vladmaxi-demos">
+					<a href="index.html">Навигация</a>
+					<a href="index2.html">Авто-прокрутка</a>
+					<a class="current-demo" href="index3.html">3 элемента</a>
+				</nav>
+			</header>
+			<section id="dg-container" class="dg-container">
+				<div class="dg-wrapper">
+					<a href="#"><img src="images/5.jpg" alt="image05"><div>http://circlemeetups.com/</div></a>
+					<a href="#"><img src="images/6.jpg" alt="image06"><div>http://www.castirondesign.com/</div></a>
+					<a href="#"><img src="images/7.jpg" alt="image07"><div>http://www.foundrycollective.com/</div></a>
+				</div>
+				<nav>	
+					<span class="dg-prev">&lt;</span>
+					<span class="dg-next">&gt;</span>
+				</nav>
+			</section>
+        </div>
+		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+		<script type="text/javascript" src="js/jquery.gallery.js"></script>
+		<script type="text/javascript">
+			$(function() {
+				$('#dg-container').gallery();
+			});
+		</script/>
+    </body>
+</html>
